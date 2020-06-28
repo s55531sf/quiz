@@ -59,10 +59,10 @@ num++;
     res.style.color="green";
     res.textContent="全問正解！おめでとう！";
     if(nan==1){
-     clear.src="20200626201041.png";
+     clear.src=img/"20200626201041.png";
      res.textContent="ハードクリアおめでとう！";
      }else{
-     clear.src="20200626201655.png";
+     clear.src=img/"20200626201655.png";
     }
    }
    flag=false;
