@@ -21,7 +21,7 @@ let toi=new Array(max);
 toi=["30□15=45","12□3=36","32□2=16","8□12=96","25□3=22","24□3=8","24□3=27","18□3=15","14□5=70","24□10=34"];
 let seikai=new Array(max);
 seikai=["+","×","÷","×","−","÷","+","−","×","+",];
-if(flag){
+if(flag&&sco<10){
  setInterval(()=>{
   if(flag){
    if(cnt>0&&flag){
