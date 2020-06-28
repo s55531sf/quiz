@@ -60,10 +60,10 @@ num++;
     res.textContent="全問正解！おめでとう！";
     if(nan==1){
      alert("あいうえお");
-     res.textContent="ハードクリアおめでとう！！"
-     clear.src="20200626201041.png";
+     res.textContent="ハードクリアおめでとう！！";
+     clear.img="20200626201041.png";
      }else{
-     clear.src="20200626201655.png";
+     clear.img="20200626201655.png";
     }
    }
    flag=false;
