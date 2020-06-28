@@ -21,18 +21,20 @@ let toi=new Array(max);
 toi=["30□15=45","12□3=36","32□2=16","8□12=96","25□3=22","24□3=8","24□3=27","18□3=15","14□5=70","24□10=34"];
 let seikai=new Array(max);
 seikai=["+","×","÷","×","−","÷","+","−","×","+",];
-setInterval(()=>{
- if(flag){
-  if(cnt>0){
-   cnt--;
-   res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
-   }else{
-  que.textContent="時間切れ";
-  que.style.color="red";
-  flag=false;
+if(flag){
+ setInterval(()=>{
+  if(flag){
+   if(cnt>0){
+    cnt--;
+    res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
+    }else{
+   que.textContent="時間切れ";
+   que.style.color="red";
+   flag=false;
+   }
   }
- }
-},1000);
+ },1000);
+}
 //plusおすとき
 plus.addEventListener("click",()=>{
 if(flag){  
@@ -57,9 +59,9 @@ num++;
     res.style.color="green";
     res.textContent="全問正解！おめでとう！";
     if(nan==1){
-     clear.src=img/"20200626201041.png"
+     clear.src="20200626201041.png"
      }else{
-     clear.src=img/"20200626201655.png";
+     clear.src="20200626201655.png";
     }
    }
    flag=false
