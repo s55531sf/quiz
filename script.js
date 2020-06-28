@@ -58,7 +58,6 @@ num++;
    if(sco==10){
     res.style.color="green";
     res.textContent="全問正解！おめでとう！";
-    alert("かきくけこ");
     if(nan==1){
      alert("あいうえお");
      clear.src=img/"20200626201041.png";
