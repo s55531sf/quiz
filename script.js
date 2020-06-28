@@ -60,7 +60,7 @@ num++;
     res.textContent="全問正解！おめでとう！";
     if(nan==1){
      clear.src="20200626201041.png";
-     alert("あいうえお");
+     res.textContent="ハードクリアおめでとう！";
      }else{
      clear.src="20200626201655.png";
     }
