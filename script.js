@@ -54,13 +54,13 @@ num++;
    que.style.color="red";
    res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
    if(sco==10){
-   res.style.color="green";
-   res.textContent="全問正解！おめでとう！";
-   if(nan==1){
-   clear.src="20200626201041.png"
-   }else{
-   clear.src="20200626201655.png";
-   }
+    res.style.color="green";
+    res.textContent="全問正解！おめでとう！";
+    if(nan==1){
+     clear.src="20200626201041.png"
+     }else{
+     clear.src="20200626201655.png";
+    }
    }
    flag=false
  }
