@@ -63,7 +63,6 @@ num++;
     res.textContent="全問正解！おめでとう！";
     flag=false;
     if(nan==1){
-     alert("あいうえお");
      flag=false;
      res.textContent="ハードクリアおめでとう！！";
      clear.img="20200626201041.png";
