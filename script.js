@@ -59,7 +59,7 @@ num++;
    if(nan==1){
    clear.src="20200626201041.png"
    }else{
-   clear.src="20200626201041.png";
+   clear.src="20200626201655.png";
    }
    }
    flag=false
