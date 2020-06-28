@@ -24,7 +24,7 @@ seikai=["+","×","÷","×","−","÷","+","−","×","+",];
 if(flag){
  setInterval(()=>{
   if(flag){
-   if(cnt>0&&sco<10){
+   if(cnt>0&&flag){
     cnt--;
     res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
     }else{
