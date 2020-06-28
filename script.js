@@ -28,7 +28,7 @@ if(flag&&sco<10){
     cnt--;
     res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
     }else{
-   if(flag){
+   if(flag&&sco<10){
     que.textContent="時間切れ";
     }
    que.style.color="red";
@@ -57,6 +57,7 @@ num++;
    que.textContent="問題終了";
    que.style.color="red";
    res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
+   flag=false;
    if(sco==10){
     res.style.color="green";
     res.textContent="全問正解！おめでとう！";
