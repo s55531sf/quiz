@@ -57,9 +57,9 @@ num++;
    res.style.color="green";
    res.textContent="全問正解！おめでとう！";
    if(nan==1){
-   clear.img="20200626201041.png"
+   clear.src="20200626201041.png"
    }else{
-   clear.img="20200626201655.png";
+   clear.src="20200626201041.png";
    }
    }
    flag=false
