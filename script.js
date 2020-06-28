@@ -24,7 +24,7 @@ seikai=["+","×","÷","×","−","÷","+","−","×","+",];
 if(flag){
  setInterval(()=>{
   if(flag){
-   if(cnt>0){
+   if(cnt>0&&sco<10){
     cnt--;
     res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
     }else{
@@ -60,9 +60,9 @@ num++;
     res.textContent="全問正解！おめでとう！";
     flag=false;
     if(nan==1){
-     clear.src="20200626201041.png"
+     clear.src=img/"20200626201041.png"
      }else{
-     clear.src="20200626201655.png";
+     clear.src=img/"20200626201655.png";
     }
    }
    flag=false;
