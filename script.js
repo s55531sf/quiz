@@ -61,12 +61,11 @@ num++;
    if(sco==10){
     res.style.color="green";
     res.textContent="全問正解！おめでとう！";
+    flag=false;
     if(nan==1){
      alert("あいうえお");
      res.textContent="ハードクリアおめでとう！！";
-     flag=false;
      clear.src="20200626201041.png";
-     flag=false;
      }else{
      clear.src="20200626201655.png";
     }
