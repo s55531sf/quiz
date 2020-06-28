@@ -60,9 +60,9 @@ num++;
     res.textContent="全問正解！おめでとう！";
     flag=false;
     if(nan==1){
-     clear.src=img/"20200626201041.png"
+     clear.src="20200626201041.png"
      }else{
-     clear.src=img/"20200626201655.png";
+     clear.src="20200626201655.png";
     }
    }
    flag=false;
