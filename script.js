@@ -63,9 +63,9 @@ num++;
     if(nan==1){
      alert("あいうえお");
      res.textContent="ハードクリアおめでとう！！";
-     clear.img="20200626201041.png";
+     clear.src=img/"20200626201041.png";
      }else{
-     clear.img="20200626201655.png";
+     clear.src=img/"20200626201655.png";
     }
    }
    flag=false;
