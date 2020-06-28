@@ -28,7 +28,9 @@ if(flag){
     cnt--;
     res.textContent="残り時間:"+cnt+"秒|スコア:"+sco;
     }else{
-   que.textContent="時間切れ";
+   if(flag){
+    que.textContent="時間切れ";
+    }
    que.style.color="red";
    flag=false;
    }
